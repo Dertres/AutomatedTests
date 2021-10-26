@@ -13,7 +13,6 @@ public class SearchSteps {
 	
 	WebDriver driver;
 
-//Use the following code only for basic exercises. Not recommended in professional projects
 	@Given("user is in index page")
 	public void IndexPage() {
 		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
